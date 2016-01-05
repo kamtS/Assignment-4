@@ -301,6 +301,7 @@ footer p {
   color: #606161;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
+  width:768px;
 }
 
 a {
@@ -308,8 +309,102 @@ a {
 }
   
   header {
-    max-width:768px;
+    width:768px;
+    padding: 20px;
+  }
+  
+  .container {
+    width:768px;
+  }
+  
+  header nav {
+    float:left;
+    margin-left:131px;
     
   }
   
+  #hero {
+    background: url(../images/header_bg.jpg);
+    background-size:cover;
+    max-width:768px;
+    height:439px;
+    padding:20px;
+  }
+  
+  #hero h2 {
+    font-size:2.2rem;
+    margin: 40px 0px 125px;
+    
+  }
+  
+  #benefits {
+    padding: 50px 20px 80px;
+  }
+  
+  #testimonial {
+    width:768px;
+    
+  }
+  
+  blockquote {
+    font-size:1.8rem;
+    margin: auto;
+  }
+  
+  #bottom-cta {
+    padding: 24px;
+  }
+  
+  .blue {
+    font-size:19px;
+  }
+  
+  footer {
+    padding: 52px 0px 32px;
+  }
+ 
+/* BLOG PAGE RESPONSIVE @ 768px */
+
+  #main {
+    margin-top:40px;
+  }
+  
+  #posts {
+    width:560px;
+    margin:0px 104px 0px;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .post img {
+    max-width:100%;
+  }
+  
+  #sidebar {
+    width:100%;
+    max-width:560px;
+    margin:0px 104px 0px;
+  }
+  
+  aside {
+    width:768px;
+  }
+  
+  .cat {
+    float:left;
+    max-width:45%;
+    margin:10px;
+  }
+  
+  .about {
+    float:right;
+    max-width:45%;
+    margin:10px;
+  }
+  
+  .adspace {
+    float:left;
+    max-width:32%;
+    margin:10px;
+  }
 }
