@@ -362,6 +362,12 @@ a {
   footer {
     padding: 52px 0px 32px;
   }
+  
+  footer .logo {
+    font-size:38px;
+    font-weight:600;
+    margin-bottom:52px;
+  }
  
 /* BLOG PAGE RESPONSIVE @ 768px */
 
